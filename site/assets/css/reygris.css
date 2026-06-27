@@ -1,0 +1,191 @@
+/*
+	ReyGris theme overrides for Escape Velocity (HTML5 UP)
+	Brand: Kingbird Slate, Territory Charcoal, Crown Gold
+*/
+
+/* Header — ReyGris sky gradient instead of stock photo */
+#header {
+	background: url("../../images/banner.svg") center center;
+	background-size: cover;
+}
+
+#header:before {
+	background: linear-gradient(
+		to bottom,
+		rgba(26, 32, 44, 0.35) 0%,
+		rgba(45, 55, 72, 0.55) 100%
+	);
+}
+
+#logo h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#logo h1 a:hover {
+	color: #b8956a;
+}
+
+#logo .rey {
+	color: #b8956a;
+}
+
+#nav > ul > li.active > a,
+#nav > ul > li.active > span {
+	color: #b8956a;
+}
+
+/* Intro accent band — Crown Gold instead of coral */
+.wrapper.style1 {
+	background: #5c6670 linear-gradient(135deg, #5c6670 0%, #4a5568 50%, #2d3748 100%);
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.wrapper.style1 .title {
+	background: #5c6670;
+	color: #fff;
+}
+
+.wrapper.style1 h1,
+.wrapper.style1 h2,
+.wrapper.style1 h3,
+.wrapper.style1 h4,
+.wrapper.style1 h5,
+.wrapper.style1 h6,
+.wrapper.style1 strong,
+.wrapper.style1 b,
+.wrapper.style1 a {
+	color: #fff;
+}
+
+#intro p.style2 {
+	color: #fff;
+	border-color: rgba(184, 149, 106, 0.45);
+}
+
+/* Primary buttons — Crown Gold */
+input[type="button"].style1,
+input[type="submit"].style1,
+input[type="reset"].style1,
+button.style1,
+.button.style1 {
+	background: #b8956a;
+	color: #fff;
+}
+
+input[type="button"].style1:hover,
+input[type="submit"].style1:hover,
+input[type="reset"].style1:hover,
+button.style1:hover,
+.button.style1:hover {
+	background-color: #c9a87e;
+}
+
+input[type="button"].style1:active,
+input[type="submit"].style1:active,
+input[type="reset"].style1:active,
+button.style1:active,
+.button.style1:active {
+	background-color: #8b6914;
+}
+
+/* Dark buttons — Territory Charcoal */
+input[type="button"].style3,
+input[type="submit"].style3,
+input[type="reset"].style3,
+button.style3,
+.button.style3 {
+	background: #2d3748;
+	color: #fff;
+}
+
+input[type="button"].style3:hover,
+input[type="submit"].style3:hover,
+input[type="reset"].style3:hover,
+button.style3:hover,
+.button.style3:hover {
+	background-color: #3d4a5c;
+}
+
+input[type="button"].style3:active,
+input[type="submit"].style3:active,
+input[type="reset"].style3:active,
+button.style3:active,
+.button.style3:active {
+	background-color: #1a202c;
+}
+
+/* Typography accents */
+h1, h2, h3, h4, h5, h6,
+strong, b {
+	color: #2d3748;
+}
+
+.wrapper.style2 .title,
+.wrapper.style3 .title {
+	color: #5c6670;
+}
+
+header.style1 h2 {
+	color: #2d3748;
+}
+
+/* Highlights section */
+.wrapper.style3 {
+	background: #f7f9fb;
+}
+
+.wrapper.style3 .title {
+	background: #f7f9fb;
+	color: #5c6670;
+}
+
+#highlights .highlight h3 a {
+	color: #2d3748;
+}
+
+#highlights .highlight h3 a:hover {
+	color: #b8956a;
+}
+
+/* Footer */
+#footer {
+	background: #2d3748;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+#footer header.style1 h2,
+#footer header.style1 p {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+#footer h3.icon:before {
+	color: #b8956a;
+}
+
+#footer a {
+	color: #b8956a;
+}
+
+#footer a:hover {
+	color: #fff;
+}
+
+#copyright {
+	color: rgba(255, 255, 255, 0.45);
+}
+
+#copyright a {
+	color: rgba(184, 149, 106, 0.85);
+}
+
+/* Remove broken shadow asset dependency */
+.image.featured:after {
+	display: none;
+}
+
+/* SVG featured images */
+.image.featured img {
+	width: 100%;
+	display: block;
+}

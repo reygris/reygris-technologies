@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1088" height="480" viewBox="0 0 1088 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f9fb"/>
+      <stop offset="100%" stop-color="#e8ecf0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1088" height="480" fill="url(#bg)"/>
+  <circle cx="544" cy="240" r="160" fill="#fff" opacity="0.7"/>
+  <g transform="translate(544 240)">
+    <path fill="#b8956a" d="M0-72l12 24 36-6-20 28 20 28-36-12-12 18-12-18-36 12 20-28-20-28 36 6z"/>
+    <path fill="#5c6670" d="M-90 36c45-10 75-40 90-72 10 30 30 50 65 60-20 10-40 12-60 0-10 20-30 35-55 40-15 3-30 0-40-8z"/>
+    <path fill="#5c6670" d="M-105 48l-20 12 22-3-6 16 12-12 10 18 3-22 14 10-10-28z"/>
+    <ellipse cx="18" cy="-24" rx="22" ry="18" fill="#5c6670"/>
+    <path fill="#2d3748" d="M36-28l26 6-22 10z"/>
+    <circle cx="24" cy="-26" r="4" fill="#f7f9fb"/>
+  </g>
+  <text x="544" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#5c6670" letter-spacing="6">REYGRIS</text>
+  <text x="544" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8b6914" letter-spacing="4">GRAY KING STANDARDS</text>
+</svg>

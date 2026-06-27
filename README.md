@@ -20,9 +20,9 @@ ReyGris is named for the Gray Kingbird (*Tyrannus dominicensis*), a bird native 
 
 The `site/` folder is the publishable homepage, built on [Escape Velocity](https://html5up.net/escape-velocity) (HTML5 UP) with ReyGris content, colors, and SVG artwork.
 
-**Live:** [https://site-nine-rosy-56.vercel.app](https://site-nine-rosy-56.vercel.app)  
+**Live:** [https://reygris.com](https://reygris.com)  
 **GitHub:** [https://github.com/reygris/reygris-technologies](https://github.com/reygris/reygris-technologies)  
-**Vercel project:** `site` (deploys from the `site/` directory)
+**Vercel project:** `reygris` (deploys from the `site/` directory)
 
 ### Local preview
 
@@ -32,7 +32,7 @@ cd site && python3 -m http.server 8080
 
 ### Deploy updates
 
-Push to `main` on GitHub. Connect the repo in [Vercel Dashboard](https://vercel.com) → **site** project → **Settings → Git** (Root Directory: `site`) for automatic deploys on every push.
+Push to `main` on GitHub. Connect the repo in [Vercel Dashboard](https://vercel.com) → **reygris** project → **Settings → Git** (Root Directory: `site`) for automatic deploys on every push.
 
 Manual deploy from CLI:
 
